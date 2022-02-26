@@ -43,6 +43,15 @@
                 {% endif %}
                 {% endfor %}
             </ul>
+
+            <span class="nav__sub-title">Python/flask</span>
+            <ul>
+                {% for category in site.categories %}
+                {% if category[0] == "Python django" %}
+                <li><a href="/categories/python" class="">Python django ({{category[1].size}})</a></li>
+                {% endif %}
+                {% endfor %}
+            </ul>
            
         </li>
     </ul>
