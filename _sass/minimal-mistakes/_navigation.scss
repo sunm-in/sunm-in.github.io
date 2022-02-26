@@ -47,8 +47,8 @@
 }
 
 /*
-     Post pagination navigation links
-     ========================================================================== */
+       Post pagination navigation links
+       ========================================================================== */
 
 .pagination {
   @include clearfix();
@@ -165,8 +165,8 @@
 }
 
 /*
-     Priority plus navigation
-     ========================================================================== */
+       Priority plus navigation
+       ========================================================================== */
 
 .greedy-nav {
   position: relative;
@@ -238,7 +238,7 @@
       position: relative;
 
       &:before {
-        content: "";
+        content: '';
         position: absolute;
         left: 0;
         bottom: 0;
@@ -268,8 +268,7 @@
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: $background-color;
-    -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16),
-      0 2px 10px 0 rgba(#000, 0.12);
+    -webkit-box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
     box-shadow: 0 2px 4px 0 rgba(#000, 0.16), 0 2px 10px 0 rgba(#000, 0.12);
 
     &.hidden {
@@ -288,7 +287,7 @@
     }
 
     &:before {
-      content: "";
+      content: '';
       position: absolute;
       top: -11px;
       right: 10px;
@@ -301,7 +300,7 @@
     }
 
     &:after {
-      content: "";
+      content: '';
       position: absolute;
       top: -10px;
       right: 10px;
@@ -335,13 +334,13 @@
 }
 
 /*
-     Navigation list
-     ========================================================================== */
+       Navigation list
+       ========================================================================== */
 
 .nav__list {
   margin-bottom: 1.5em;
 
-  input[type="checkbox"],
+  input[type='checkbox'],
   label {
     display: none;
   }
@@ -363,7 +362,7 @@
 
       &:before,
       &:after {
-        content: "";
+        content: '';
         position: absolute;
         right: 1em;
         top: 1.25em;
@@ -492,16 +491,16 @@
   display: block;
   margin: 0.5rem 0;
   padding: 0.25rem 0;
-  font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-family: $serif;
+  font-size: $type-size-3;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
 }
 
 /*
-     Table of contents navigation
-     ========================================================================== */
+       Table of contents navigation
+       ========================================================================== */
 
 .toc {
   font-family: $sans-serif-narrow;
@@ -531,10 +530,10 @@
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: $type-size-6;
   }
 
   a {
@@ -568,6 +567,6 @@
   }
 
   li ul li ul li ul li ul li ul > li a {
-    padding-left: 3.25rem
+    padding-left: 3.25rem;
   }
 }

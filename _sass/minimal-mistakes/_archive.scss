@@ -26,7 +26,7 @@
     z-index: 10;
   }
 
-  a[rel="permalink"] {
+  a[rel='permalink'] {
     position: static;
   }
 }
@@ -34,9 +34,10 @@
 .archive__subtitle {
   margin: 1.414em 0 0.5em;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
+  font-size: $type-size-3;
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
+  font-family: $serif;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
@@ -44,13 +45,15 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0.9em;
   font-family: $sans-serif-narrow;
-  line-height: initial;
+  line-height: 1.5;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-family: $cute;
+  font-size: $type-size-4;
 
-  a[rel="permalink"]::before {
+  a[rel='permalink']::before {
     content: '';
     position: absolute;
     left: 0;
@@ -121,8 +124,8 @@
 }
 
 /*
-   List view
-   ========================================================================== */
+     List view
+     ========================================================================== */
 
 .list__item {
   .page__meta {
@@ -132,8 +135,8 @@
 }
 
 /*
-   Grid view
-   ========================================================================== */
+     Grid view
+     ========================================================================== */
 
 .archive {
   .grid__wrapper {
@@ -235,8 +238,8 @@
 }
 
 /*
-   Features
-   ========================================================================== */
+     Features
+     ========================================================================== */
 
 .feature__wrapper {
   @include clearfix();
@@ -439,10 +442,10 @@
 }
 
 /*
-   Wide Pages
-   ========================================================================== */
+     Wide Pages
+     ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
@@ -457,7 +460,7 @@
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+  .feature__wrapper {
+    display: inline-block;
+  }
 }

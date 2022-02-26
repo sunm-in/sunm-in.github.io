@@ -13,20 +13,21 @@ $paragraph-indent: false !default; // true, false (default)
 $indent-var: 1.3em !default;
 
 /* system typefaces */
-$serif: Georgia, Times, serif !default;
-$sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
-  "Helvetica Neue", "Lucida Grande", Arial, sans-serif !default;
-$monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$serif: 'Coming Soon', Georgia, Times, serif !default;
+$sans-serif: 'Iropke Batang', -apple-system, BlinkMacSystemFont, 'Roboto', 'Segoe UI',
+  'Helvetica Neue', 'Lucida Grande', Arial, sans-serif !default;
+$monospace: 'Nanum Gothic Coding', Monaco, Consolas, 'Lucida Console', monospace !default;
+$cute: 'Cafe24Oneprettynight' !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: $sans-serif !default;
-$helvetica: Helvetica, "Helvetica Neue", Arial, sans-serif !default;
+$helvetica: 'Cafe24Oneprettynight', Helvetica, 'Helvetica Neue', Arial, sans-serif !default;
 
 /* serif typefaces */
 $georgia: Georgia, serif !default;
 $times: Times, serif !default;
-$bodoni: "Bodoni MT", serif !default;
-$calisto: "Calisto MT", serif !default;
+$bodoni: 'Bodoni MT', serif !default;
+$calisto: 'Calisto MT', serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
@@ -52,8 +53,8 @@ $h-size-5: 1.03125em !default; // ~16.5px
 $h-size-6: 1em !default; // ~16px
 
 /*
-   Colors
-   ========================================================================== */
+      Colors
+      ========================================================================== */
 
 $gray: #7a8288 !default;
 $dark-gray: mix(#000, $gray, 50%) !default;
@@ -123,7 +124,8 @@ $notice-background-mix: 80% !default;
 $code-notice-background-mix: 90% !default;
 
 /* syntax highlighting (base16) */
-$base00: #263238 !default;
+// $base00: #263238 !default;
+$base00: #44494d !default;
 $base01: #2e3c43 !default;
 $base02: #314549 !default;
 $base03: #546e7a !default;
@@ -141,27 +143,28 @@ $base0e: #c792ea !default;
 $base0f: #ff5370 !default;
 
 /*
-   Breakpoints
-   ========================================================================== */
+      Breakpoints
+      ========================================================================== */
 
 $small: 600px !default;
 $medium: 768px !default;
 $medium-wide: 900px !default;
 $large: 1024px !default;
-$x-large: 1280px !default;
+// $x-large: 1280px !default;
+$x-large: 1400px !default;
 $max-width: $x-large !default;
 
 /*
-   Grid
-   ========================================================================== */
+      Grid
+      ========================================================================== */
 
 $right-sidebar-width-narrow: 200px !default;
 $right-sidebar-width: 300px !default;
 $right-sidebar-width-wide: 400px !default;
 
 /*
-   Other
-   ========================================================================== */
+      Other
+      ========================================================================== */
 
 $border-radius: 4px !default;
 $box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;

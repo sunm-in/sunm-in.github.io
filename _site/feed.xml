@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-27T01:57:07+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">기술 블로그🐶</title><subtitle>배운 것을 정리하는 기술 블로그 입니다.</subtitle><author><name>sunm-in</name></author><entry><title type="html">[JavaScript] 게시글 제목 테스트</title><link href="http://localhost:4000/javascript/test/" rel="alternate" type="text/html" title="[JavaScript] 게시글 제목 테스트" /><published>2022-02-27T00:00:00+09:00</published><updated>2022-02-27T00:00:00+09:00</updated><id>http://localhost:4000/javascript/test</id><content type="html" xml:base="http://localhost:4000/javascript/test/"><![CDATA[<h1 id="테스트-게시글-내용제목">테스트 게시글 내용제목</h1>
+
+<ul>
+  <li>ㅋㅋㅋㅋㅋ
+<strong>ㅋㅋㅋㅋㅋㅋ</strong></li>
+</ul>
+
+<p><a href="#" class="btn btn--primary align-right">맨 위로 이동하기</a></p>]]></content><author><name>sunm-in</name></author><category term="JavaScript" /><category term="Programming" /><category term="Test" /><category term="js" /><category term="react" /><summary type="html"><![CDATA[테스트 게시글 내용제목]]></summary></entry></feed>
