@@ -1,20 +1,20 @@
 ---
-title: '[리액트] react react'
+title: '[React] 첫 번째 게시글 테스트'
 
 categories:
   - React
 tags:
-  - [Programming, react]
+  - [react]
 
 toc: true
 toc_sticky: true
 
-date: 2022-02-25
-last_modified_at: 2022-02-25
+date: 2022-02-27
+last_modified_at: 2022-02-27
 ---
 
-# react
+# react title
 
-- 리액트입니다.
+- Test
 
 [맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}

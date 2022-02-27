@@ -1,7 +1,7 @@
 ---
-title: '네트워크 보안'
+title: 'TypeScript'
 layout: archive
-permalink: categories/network-security
+permalink: categories/ts
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ---
 
-{% assign posts = site.categories.['Network Security'] %}
+{% assign posts = site.categories.TypeScript %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
