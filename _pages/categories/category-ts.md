@@ -1,7 +1,7 @@
 ---
 title: 'TypeScript'
 layout: archive
-permalink: categories/TypeScript
+permalink: categories/ts
 author_profile: true
 sidebar_main: true
 ---

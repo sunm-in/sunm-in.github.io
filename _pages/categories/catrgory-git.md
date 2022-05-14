@@ -1,7 +1,7 @@
 ---
 title: 'Git & Github'
 layout: archive
-permalink: categories/Git
+permalink: categories/git
 author_profile: true
 sidebar_main: true
 ---
