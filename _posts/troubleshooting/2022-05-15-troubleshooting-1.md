@@ -1,5 +1,5 @@
 ---
-title: '[Trouble Shooting] 두 번째 게시글 테스트'
+title: '[Trouble Shooting] 첫 번째 게시글 테스트'
 
 categories:
   - TroubleShooting
