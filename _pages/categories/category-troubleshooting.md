@@ -1,7 +1,7 @@
 ---
 title: 'Trouble Shooting'
 layout: archive
-permalink: categories/troubleshooting
+permalink: categories/TroubleShooting
 author_profile: true
 sidebar_main: true
 ---
